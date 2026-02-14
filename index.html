@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/icons8-ai-32.png" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Listas de Tarefas</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Lista de Tarefas</h1>
+      <p>Adicione suas tarefas!</p>
+      <input
+        type="text"
+        name=""
+        id="inputTarefa"
+        placeholder="Digite a sua tarefa"
+        required
+      />
+      <button onclick="adicionarTarefa()">Adicionar Tarefa</button>
+      <button onclick="limparListas()" class="botao_lista">Limpar Tudo</button>
+      <p id="mensagem"></p>
+      <ul id="listaTarefas"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
