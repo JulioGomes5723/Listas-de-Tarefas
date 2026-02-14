@@ -25,7 +25,7 @@ function adicionarTarefa() {
   } else {
     document.getElementById("mensagem").textContent =
       "Tarefa adicionada com sucesso!";
-    document.getElementById("mensagem").style.color = "#038717";
+    document.getElementById("mensagem").style.color = "#000";
 
     tarefas.push(tarefa);
 
@@ -92,3 +92,4 @@ function limparListas() {
     mensagem.style.color = "#0f22d2";
   }
 }
+
